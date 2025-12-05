@@ -2,4 +2,4 @@
 
 Name: Mohammed Boumargu  
 Student Number: 041130640 
-Static Site Generator Used:
+Static Site Generator Used: Vite
