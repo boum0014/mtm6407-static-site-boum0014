@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import './styles/custom.css'
 
-// https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
   base: '/mtm6407-static-site-boum0014/',
   title: 'My Portfolio',
@@ -9,11 +8,11 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
-      { text: 'Projects', link: '/projects' },
-      { text: 'Gallery', link: '/gallery' },
-      { text: 'Contact', link: '/contact' }
+      { text: 'Home', link: '/mtm6407-static-site-boum0014/' },
+      { text: 'About', link: '/mtm6407-static-site-boum0014/about' },
+      { text: 'Projects', link: '/mtm6407-static-site-boum0014/projects' },
+      { text: 'Gallery', link: '/mtm6407-static-site-boum0014/gallery' },
+      { text: 'Contact', link: '/mtm6407-static-site-boum0014/contact' }
     ]
   }
 })
