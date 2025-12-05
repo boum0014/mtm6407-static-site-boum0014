@@ -7,12 +7,18 @@ export default defineConfig({
   description: 'A personal interest site built with VitePress',
 
   themeConfig: {
+    // Navigation links using hash routing for GitHub Pages
     nav: [
-      { text: 'Home', link: '/mtm6407-static-site-boum0014/' },
-      { text: 'About', link: '/mtm6407-static-site-boum0014/about' },
-      { text: 'Projects', link: '/mtm6407-static-site-boum0014/projects' },
-      { text: 'Gallery', link: '/mtm6407-static-site-boum0014/gallery' },
-      { text: 'Contact', link: '/mtm6407-static-site-boum0014/contact' }
-    ]
+      { text: 'Home', link: '/mtm6407-static-site-boum0014/#/' },
+      { text: 'About', link: '/mtm6407-static-site-boum0014/#/about' },
+      { text: 'Projects', link: '/mtm6407-static-site-boum0014/#/projects' },
+      { text: 'Gallery', link: '/mtm6407-static-site-boum0014/#/gallery' },
+      { text: 'Contact', link: '/mtm6407-static-site-boum0014/#/contact' }
+    ],
+
+    footer: {
+      message: '© 2025 Mohammed Boumargu',
+      copyright: 'All rights reserved.'
+    }
   }
 })
