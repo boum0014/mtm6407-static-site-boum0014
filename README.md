@@ -2,4 +2,4 @@
 
 Name: Mohammed Boumargu  
 Student Number: 041130640 
-Static Site Generator Used: Nuxt 
+Static Site Generator Used:
